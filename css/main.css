@@ -9,6 +9,14 @@ body {
   font-family: "Lexend Deca", sans-serif;
   background-color: #f2f2f2;
 }
+@media screen and (min-width: 768px) {
+  body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 
 h2 {
   font-family: "Big Shoulders Display", cursive;
@@ -110,5 +118,12 @@ h2 {
   .column-paragraph {
     margin-bottom: 82px;
     font-size: 16px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-xl-4 {
+    flex: 0 0 auto;
+    width: 25.33333333%;
   }
 }/*# sourceMappingURL=main.css.map */
